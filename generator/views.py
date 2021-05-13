@@ -24,6 +24,3 @@ def password(request):
 		finalpass += random.choice(alphabets)
 	
 	return render(request, 'generator/password.html', {'password': finalpass})
-
-def about(request):
-	return render(request, 'generator/about.html')

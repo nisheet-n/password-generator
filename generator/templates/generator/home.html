@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
+		<title>Password Generator</title>
 	</head>
 
 	<body>
@@ -17,10 +17,30 @@
 				<option value="8">8</option>
 				<option value="9">9</option>
 				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13" selected="selected">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
 			</select>
+			<br>
 
+			<input type="checkbox" name="uppercase"> UpperCase
+			<br>
+			<input type="checkbox" name="number"> Numbers
+			<br>
+			<input type="checkbox" name="special"> Special Characters
+			<br>
 			<input type="submit" value="Generate Password">
 		</form>
+		<br>
+
+		<a href="{% url 'about' %}">About </a>
 	</body>
 
 </html>

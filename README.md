@@ -1,9 +1,11 @@
 # Password Generator
 
-A simple webpage that generates random passwords upon user entered choices.
+Generates random passwords based upon various choices entered by user.
 
-![image](https://user-images.githubusercontent.com/64470404/118143973-8ac8b400-b429-11eb-9812-eb640ac499e9.png)
+### Preview
+![image](https://user-images.githubusercontent.com/73037598/139004626-9ae495c8-791e-4af3-96e1-52d008194c8d.png)
 
-![image](https://user-images.githubusercontent.com/64470404/118144000-91efc200-b429-11eb-8519-b9984a63b7bd.png)
+![image](https://user-images.githubusercontent.com/73037598/139004702-fbd27990-6ea9-4e0f-8e2b-4f223c6d1f65.png)
 
-Thanks!!!
+### Deployed Version
+https://nisheet.pythonanywhere.com/
